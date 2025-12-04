@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using static UnityEngine.UI.Image;
 
 public class Gun : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Gun : MonoBehaviour
     public int currentAmmo = 0;
     public int magCapasity = 12;
     public int reservedAmmo = 60;
+    public LayerMask enemyLayer;
+
 
     [Header("UI Kýsmý")]
     public TextMeshProUGUI ammoText;
@@ -46,21 +49,21 @@ public class Gun : MonoBehaviour
     
     void Shoot()
     {
-        //debuglar döngü kontrolleri için eklendi
         RaycastHit hit;
-        Debug.Log("Shoot çalýþtý");
 
-        if (Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range))
+        //Eski if döngüsü: Physics.Raycast(fpsCamera.transform.position, fpsCamera.transform.forward, out hit, range, enemyLayer)
+        
+        if (Physics.SphereCast(fpsCamera.transform.position, 4f, fpsCamera.transform.forward, out hit, range, enemyLayer))
         {
-            
-            Debug.Log("1. if'e girdi");
+            Debug.Log("Hit object: " + hit.transform.name + " | Tag: " + hit.transform.tag);
+           
             if (hit.transform.CompareTag("Enemy"))
             {
-                Debug.Log("compare tag çalýþtý");
+                
                 Rigidbody rb = hit.collider.attachedRigidbody;
                 if (rb != null)
                 {
-                    Debug.Log("rb null deðil");
+                    
                     rb.AddForce(-hit.normal * damage, ForceMode.Impulse);
                     hit.collider.gameObject.GetComponent<Enemy>().TakeDamage();
                 }
@@ -83,4 +86,6 @@ public class Gun : MonoBehaviour
         reservedAmmoText.text = reservedAmmo.ToString();
         ammoText.color = Color.white;
     }
+
+    
 }

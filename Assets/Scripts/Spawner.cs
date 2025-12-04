@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
     [Header("Normal Zombi Ayarları")]
     public GameObject normalZombiPrefab;
-    public float normalSure = 10f;
+    public float normalSure = 20f;
 
     [Header("Boss Zombi Ayarları")]
     public GameObject bossPrefab;

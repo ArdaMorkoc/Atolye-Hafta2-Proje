@@ -9,11 +9,16 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private float health = 100;
     [SerializeField] private bool isBossZombie;
-
+    private float giveDamage;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        if (isBossZombie)
+            giveDamage = 20;
+        else
+            giveDamage = 10;
     }
 
     void Update()
@@ -24,8 +29,17 @@ public class Enemy : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<CrController>().TakeDamage(giveDamage);
+        }
+    }
+
     public void TakeDamage()
     {
+        
         if (isBossZombie)
         {
             health -= 10;
@@ -39,6 +53,8 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject, 3.0f);
         }
+
+        Debug.Log("TakeDamage çalýþtý: " + health);
     }
 
 }

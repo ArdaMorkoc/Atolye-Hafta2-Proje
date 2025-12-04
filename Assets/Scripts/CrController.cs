@@ -26,7 +26,7 @@ public class CrController : MonoBehaviour
     // Özel Değişkenler
     private Vector3 _velocity;
     private bool _isGrounded;
-
+    float health = 100;
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -80,6 +80,18 @@ public class CrController : MonoBehaviour
         if (_isGrounded)
         {
             _velocity.y = Mathf.Sqrt(_jump * -2f * _gravity);
+        }
+    }
+
+    public void TakeDamage(float dam)
+    {
+        health = Mathf.Clamp(health - dam, 0, 100);
+
+        if (health <= 0)
+        {
+            //animasyon burada çalışacak ve game over verilecek
+
+            Debug.Log("Öldün");
         }
     }
 }
