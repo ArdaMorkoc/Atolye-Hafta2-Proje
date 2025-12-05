@@ -6,57 +6,60 @@ using UnityEngine.SceneManagement; // Sahneyi yeniden başlatmak için gerekli k
 
 public class HealthManager : MonoBehaviour
 {
-    [Header("Can Ayarları")]
-    public int baslangicCani = 100;
-    public int guncelCan;
+    public float baslangicCani = 100;
+    public float guncelCan;
 
-    [Header("UI Bağlantısı")]
-    public Image canBariGorseli;
+    [Header("UI Bağlantısı (Sadece Player İçin)")]
+    public Image healthBar; // Can barı görselini buraya sürükle (Varsa)
+    public Image damagePanel;
 
+    private void Update()
+    {
+        // --- YENİ: Kırmızılık yavaşça kaybolsun ---
+        if (damagePanel != null)
+        {
+            if (damagePanel.color.a > 0)
+            {
+                Color renk = damagePanel.color;
+                renk.a -= Time.deltaTime; // Yavaşça saydamlaş
+                damagePanel.color = renk;
+            }
+        }
+    }
     void Start()
     {
-        guncelCan = baslangicCani; // Oyuna başlarken canı fulle
+        guncelCan = baslangicCani;
     }
 
-    // Hasar alma fonksiyonu (Silah veya Zombi bunu çağıracak)
     public void HasarAl(int hasarMiktari)
     {
         guncelCan -= hasarMiktari;
 
-        // --- CAN BARI GÜNCELLEME ---
-        if (canBariGorseli != null)
+        // Can barı varsa güncelle (Sadece Player için çalışır)
+        if (healthBar != null)
         {
-            // Matematik: Güncel Can / Toplam Can (Örn: 80/100 = 0.8)
-            canBariGorseli.fillAmount = (float)guncelCan / baslangicCani;
+            healthBar.fillAmount = guncelCan / baslangicCani;
         }
 
-        Debug.Log(gameObject.name + " hasar aldı! Kalan: " + guncelCan);
+        if (damagePanel != null && gameObject.CompareTag("Player"))
+        {
+            Color renk = damagePanel.color;
+            renk.a = 0.8f; // Aniden kırmızı yap (0.8 opaklık)
+            damagePanel.color = renk;
+        }
 
+        // --- ÖLÜM KONTROLÜ ---
         if (guncelCan <= 0)
         {
-            Oldur();
-        }
-    }
-
-    void Oldur()
-    {
-        // Ölen şey Player mı?
-        if (gameObject.CompareTag("Player"))
-        {
-            Debug.Log("OYUN BİTTİ! PLAYER ÖLDÜ.");
-
-            // Sahneyi (Leveli) baştan başlat
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
-        // Yoksa düşman mı?
-        else
-        {
-            Debug.Log("Zombi Geberdi!");
-
-            // Puan ekleme kodu buraya gelebilir
-
-            // Zombiyi sahneden sil
-            Destroy(gameObject);
+            // Eğer canı biten obje "Player" ise...
+            if (gameObject.CompareTag("Player"))
+            {
+                // GameManager'a "Oyun Bitti" de!
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.GameOver();
+                }
+            }
         }
     }
 }
