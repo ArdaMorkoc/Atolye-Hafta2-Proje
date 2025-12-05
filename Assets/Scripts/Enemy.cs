@@ -7,70 +7,82 @@ public class Enemy : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Transform player;
+    private Animator anim; // <--- Animasyoncuyu tanımladık
 
     [Header("Boss Ayarı")]
-    [SerializeField] private bool isBossZombie; // Bunu işaretlersen Boss olur
+    [SerializeField] private bool isBossZombie;
 
-    private float giveDamage; // Player'a ne kadar vuracak?
-    private float saldiriHizi = 1.0f; // Saniyede kaç kere vursun?
+    private float giveDamage;
+    private float saldiriHizi = 1.5f;
     private float sonVurusZamani;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
 
-        // Player'ı güvenli bir şekilde bul
+        // Zombinin üzerindeki Animator bileşenini buluyoruz
+        anim = GetComponent<Animator>();
+
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
         {
             player = playerObj.transform;
         }
 
-        // --- OTOMATİK AYAR KISMI ---
-        // Kendi üzerindeki HealthManager'ı bulup canı ayarlayalım
+        // --- OTOMATİK AYARLAR (Can ve Hız) ---
         HealthManager myHealth = GetComponent<HealthManager>();
 
         if (isBossZombie)
         {
-            giveDamage = 20; // Boss hasarı
-            if (myHealth != null) myHealth.baslangicCani = 150; // Boss canı
+            giveDamage = 20;
+            if (myHealth != null) myHealth.baslangicCani = 150;
+            agent.speed = 1.5f; // Boss yavaş yürür
         }
         else
         {
-            giveDamage = 10; // Normal hasar
-            if (myHealth != null) myHealth.baslangicCani = 100; // Normal can
+            giveDamage = 10;
+            if (myHealth != null) myHealth.baslangicCani = 100;
+            agent.speed = 3.5f; // Normal zombi hızlı yürür
         }
 
-        // Eğer oyun başladığında HealthManager start almışsa, güncel canı da eşitlemek lazım
         if (myHealth != null) myHealth.guncelCan = myHealth.baslangicCani;
     }
 
     void Update()
     {
-        // Player yaşıyorsa kovala
         if (player != null)
         {
             agent.SetDestination(player.position);
         }
+
+        // --- ANİMASYON KODU BURASI ---
+        // Zombinin hızı 0.1'den büyükse (yürüyorsa)
+        if (agent.velocity.magnitude > 0.1f)
+        {
+            // Animator'daki "IsMoving" kutucuğunu işaretle
+            anim.SetBool("IsMoving", true);
+        }
+        else
+        {
+            // Duruyorsa işaretini kaldır
+            anim.SetBool("IsMoving", false);
+        }
     }
 
-    // Player ile çarpışınca çalışır
     private void OnCollisionStay(Collision collision)
     {
         if (collision.transform.CompareTag("Player"))
         {
-            // Sürekli can gitmesin diye süre kontrolü (Cooldown)
             if (Time.time > sonVurusZamani + saldiriHizi)
             {
-                // Player'ın üzerindeki HealthManager'ı bul
-                HealthManager playerHealth = collision.gameObject.GetComponent<HealthManager>();
+                // SALDIRI ANİMASYONU TETİKLE ("Attack" tetiğini çek)
+                anim.SetTrigger("Attack");
 
+                HealthManager playerHealth = collision.gameObject.GetComponent<HealthManager>();
                 if (playerHealth != null)
                 {
-                    // Hasarı ver (Int istiyordu, float'ı int'e çevirdik)
                     playerHealth.HasarAl((int)giveDamage);
                     sonVurusZamani = Time.time;
-                    Debug.Log("Zombi vurdu! Hasar: " + giveDamage);
                 }
             }
         }

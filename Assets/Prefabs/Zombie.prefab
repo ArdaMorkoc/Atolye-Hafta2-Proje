@@ -187,3 +187,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baslangicCani: 150
   guncelCan: 0
+  canBariGorseli: {fileID: 0}
