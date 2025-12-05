@@ -35,7 +35,7 @@ public class Gun : MonoBehaviour
 
     private float birSonrakiAtisZamani = 0f;
     private bool isReloading = false;
-
+    public Animator animator;
     private void Start()
     {
         currentAmmo = magCapasity;
@@ -67,12 +67,20 @@ public class Gun : MonoBehaviour
             if (Time.time >= birSonrakiAtisZamani)
             {
                 Shoot(hit);
+                animator.SetTrigger("isShooted");
                 birSonrakiAtisZamani = Time.time + atisHizi;
             }
         }
     }
 
-    IEnumerator ReloadYap()
+
+
+    public void ReloadButton()
+    {
+        StartCoroutine(ReloadYap());
+    }
+    
+     IEnumerator ReloadYap()
     {
         isReloading = true;
         if (ammoText != null)

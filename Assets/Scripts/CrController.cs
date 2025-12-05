@@ -27,6 +27,7 @@ public class CrController : MonoBehaviour
     private Vector3 _velocity;
     private bool _isGrounded;
     float health = 100;
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -68,7 +69,9 @@ public class CrController : MonoBehaviour
         // 4. ANİMASYONU GÜNCELLE (ÖNEMLİ KISIM)
         // inputSiddeti: 0 ise durur, 0.5 ise yürür, 1 ise koşar.
         // 0.1f parametresi animasyonun yumuşak geçiş yapmasını sağlar (DampTime).
-        animator.SetFloat("Speed", inputSiddeti, 0.1f, Time.deltaTime);
+        //animator.SetFloat("SpeedX", inputSiddeti, 0.1f, Time.deltaTime);
+        animator.SetFloat("SpeedX", x, 0.1f, Time.deltaTime);
+        animator.SetFloat("SpeedZ", z, 0.1f, Time.deltaTime);
 
         // 5. YERÇEKİMİ
         _velocity.y += _gravity * Time.deltaTime;
@@ -79,7 +82,8 @@ public class CrController : MonoBehaviour
     {
         if (_isGrounded)
         {
-            _velocity.y = Mathf.Sqrt(_jump * -2f * _gravity);
+            //_velocity.y = Mathf.Sqrt(_jump * -2f * _gravity);
+            animator.SetTrigger("isJumped");
         }
     }
 
