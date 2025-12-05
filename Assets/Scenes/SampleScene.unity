@@ -827,7 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baslangicCani: 100
   guncelCan: 0
-  canBariGorseli: {fileID: 0}
+  canBariGorseli: {fileID: 279728171}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993c04a7bf5b2f9488d49f68f284d2d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalZombiPrefab: {fileID: 1519610733531225344, guid: 69896c48a3e947648bc70921be4f1d82,
+  normalZombiPrefab: {fileID: 7016855430674084935, guid: 8a7954311c76a6f469c021ae44293f8d,
     type: 3}
   normalSure: 5
   bossPrefab: {fileID: 1519610733531225344, guid: dca0fb2ac5581e94388cd341493db11d,
