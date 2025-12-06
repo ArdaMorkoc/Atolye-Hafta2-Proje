@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor2
       objectReference: {fileID: 0}
+    - target: {fileID: 172532, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458368, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6967554
@@ -409,6 +413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.187744
@@ -471,6 +479,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -803,6 +815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -875,6 +891,10 @@ PrefabInstance:
     - target: {fileID: 137876, guid: 3b11171e2a148a34a92bec2f1dd14b59, type: 3}
       propertyPath: m_Name
       value: ColumnGateArch
+      objectReference: {fileID: 0}
+    - target: {fileID: 137876, guid: 3b11171e2a148a34a92bec2f1dd14b59, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 477654, guid: 3b11171e2a148a34a92bec2f1dd14b59, type: 3}
       propertyPath: m_LocalScale.x
@@ -1015,6 +1035,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky Tree_ A
       objectReference: {fileID: 0}
+    - target: {fileID: 6440774818338459094, guid: 7a8589994318cfa4ba3f5fb998d7ac8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1031,6 +1056,10 @@ PrefabInstance:
     - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_Name
       value: MetObj_Lamp (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
@@ -1128,6 +1157,10 @@ PrefabInstance:
     - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_Name
       value: Candle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
@@ -1415,6 +1448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gravestone_G_Destroyed
       objectReference: {fileID: 0}
+    - target: {fileID: 6567331699499116727, guid: d031b7d3da7aa704cbcae44dc93c5da4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1553,6 +1591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombstonesCoffinWood.005
       objectReference: {fileID: 0}
+    - target: {fileID: 169812, guid: e229efc04a66c6c489db8033164da58d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 406204, guid: e229efc04a66c6c489db8033164da58d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.21
@@ -1625,6 +1667,10 @@ PrefabInstance:
     - target: {fileID: 156220, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
       propertyPath: m_Name
       value: Candle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 156220, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471332, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -1708,6 +1754,10 @@ PrefabInstance:
     - target: {fileID: 125970, guid: d0ad3c3d6d2d20b45b15f81ab27aa2f5, type: 3}
       propertyPath: m_Name
       value: Floor17
+      objectReference: {fileID: 0}
+    - target: {fileID: 125970, guid: d0ad3c3d6d2d20b45b15f81ab27aa2f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 443688, guid: d0ad3c3d6d2d20b45b15f81ab27aa2f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1875,6 +1925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -1954,6 +2008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 103032, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 484070, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.953945
@@ -2010,6 +2068,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2237,6 +2299,10 @@ PrefabInstance:
     - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_Name
       value: Candle3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
@@ -2479,6 +2545,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3703581492467372302, guid: 46787c0ca02578e40ab1a18b749a4ff1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4048194083847064500, guid: 46787c0ca02578e40ab1a18b749a4ff1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2546,6 +2617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.187744
@@ -2602,6 +2677,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2676,6 +2755,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Head_Candle_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141948743995340936, guid: 1ec8def73bb35c1468e0c3604ac21aaa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6806985759611937330, guid: 1ec8def73bb35c1468e0c3604ac21aaa,
         type: 3}
@@ -2765,6 +2849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombstonesCoffinWood.006
       objectReference: {fileID: 0}
+    - target: {fileID: 118648, guid: ed60f1fa38762dd4b9ec123642540bcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 405062, guid: ed60f1fa38762dd4b9ec123642540bcd, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2
@@ -2844,6 +2932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Lamp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -2916,6 +3008,10 @@ PrefabInstance:
     - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3071,6 +3167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.08078
@@ -3199,6 +3299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467135361893618014, guid: bad15bf9648b35346a364933a7c3600b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3343,6 +3448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3423,6 +3532,10 @@ PrefabInstance:
     - target: {fileID: 152684, guid: 22e746d62f7494543a5815e240ea4d1d, type: 3}
       propertyPath: m_Name
       value: Floor12
+      objectReference: {fileID: 0}
+    - target: {fileID: 152684, guid: 22e746d62f7494543a5815e240ea4d1d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 418444, guid: 22e746d62f7494543a5815e240ea4d1d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3649,7 +3762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &426291827
 Transform:
@@ -3689,6 +3802,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3746,6 +3863,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3880,6 +4001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.08078
@@ -3936,6 +4061,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4146,6 +4275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.218367
@@ -4202,6 +4335,10 @@ PrefabInstance:
     - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_Name
       value: Candle3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
@@ -4283,6 +4420,10 @@ PrefabInstance:
     - target: {fileID: 156220, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
       propertyPath: m_Name
       value: Candle2
+      objectReference: {fileID: 0}
+    - target: {fileID: 156220, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 471332, guid: e4ed6040c475aa64e9446a9b34f2c7d2, type: 3}
       propertyPath: m_LocalScale.x
@@ -4367,6 +4508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CryptRootf2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 477468, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -4445,6 +4590,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4628,6 +4777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -4707,6 +4860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172532, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458368, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.3142738
@@ -4763,6 +4920,10 @@ PrefabInstance:
     - target: {fileID: 173952, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
       propertyPath: m_Name
       value: Tombstones.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 173952, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480672, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4936,6 +5097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones.002
       objectReference: {fileID: 0}
+    - target: {fileID: 189820, guid: 22179bcc88e2bae4d8c5801999ddb5df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 491138, guid: 22179bcc88e2bae4d8c5801999ddb5df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.455966
@@ -5071,6 +5236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -5195,6 +5364,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2119252929475379375, guid: 478d38c3698cbe24cbf7dbfad105d10c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5211,6 +5385,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5291,6 +5469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.187744
@@ -5347,6 +5529,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5557,6 +5743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -5629,6 +5819,10 @@ PrefabInstance:
     - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5744,6 +5938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_D (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2014395303379476763, guid: 74132bcdca7f7d245a825825c3fc7909,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5766,6 +5965,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -5839,6 +6042,10 @@ PrefabInstance:
     - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6015,6 +6222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CryptWall
       objectReference: {fileID: 0}
+    - target: {fileID: 147908, guid: 8d884bf9780f07b4c9851a2a26f63b56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 438082, guid: 8d884bf9780f07b4c9851a2a26f63b56, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -6088,6 +6299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombstonesCoffinWood.005
       objectReference: {fileID: 0}
+    - target: {fileID: 169812, guid: e229efc04a66c6c489db8033164da58d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 406204, guid: e229efc04a66c6c489db8033164da58d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.059917
@@ -6144,6 +6359,10 @@ PrefabInstance:
     - target: {fileID: 184800, guid: f0c46bcbdccbc3347a2f382657201c67, type: 3}
       propertyPath: m_Name
       value: CryptMiniCoffin1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184800, guid: f0c46bcbdccbc3347a2f382657201c67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 432118, guid: f0c46bcbdccbc3347a2f382657201c67, type: 3}
       propertyPath: m_LocalScale.x
@@ -6218,6 +6437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.985758
@@ -6283,7 +6506,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &795947125
 Transform:
@@ -6318,6 +6541,10 @@ PrefabInstance:
     - target: {fileID: 173952, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
       propertyPath: m_Name
       value: Tombstones.003 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173952, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 480672, guid: 85f77ffaa5761174d8f257cebbe8a690, type: 3}
       propertyPath: m_LocalScale.x
@@ -6666,6 +6893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CryptRootf2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 477468, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -6788,6 +7019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 173624, guid: 5b88acc3fb62ad149b29e835335343a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 484480, guid: 5b88acc3fb62ad149b29e835335343a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.237905
@@ -6845,6 +7080,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_F
+      objectReference: {fileID: 0}
+    - target: {fileID: 99930277396905942, guid: cfc2c4ebb18c1654fb15374a115085e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 732070932133979500, guid: cfc2c4ebb18c1654fb15374a115085e9,
         type: 3}
@@ -6928,6 +7168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CryptRootf2
       objectReference: {fileID: 0}
+    - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 477468, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -7000,6 +7244,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7074,6 +7322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor26
       objectReference: {fileID: 0}
+    - target: {fileID: 131594, guid: 81b4d9f6dd6371447b80b288f477e059, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 440042, guid: 81b4d9f6dd6371447b80b288f477e059, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.739872
@@ -7130,6 +7382,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -7204,6 +7460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor25
       objectReference: {fileID: 0}
+    - target: {fileID: 101402, guid: 9b9a33251770c1d4cbc07ab1f7494adc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 462428, guid: 9b9a33251770c1d4cbc07ab1f7494adc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4104917
@@ -7260,6 +7520,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -7339,6 +7603,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7546,6 +7814,10 @@ PrefabInstance:
     - target: {fileID: 173624, guid: 5b88acc3fb62ad149b29e835335343a6, type: 3}
       propertyPath: m_Name
       value: Tombstones (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173624, guid: 5b88acc3fb62ad149b29e835335343a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 484480, guid: 5b88acc3fb62ad149b29e835335343a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7853,6 +8125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor7
       objectReference: {fileID: 0}
+    - target: {fileID: 131592, guid: 2383072c6c377e444a503d040d53cf12, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 428066, guid: 2383072c6c377e444a503d040d53cf12, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7941725
@@ -7915,6 +8191,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -7988,6 +8268,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -8274,6 +8558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pumpkin_C
       objectReference: {fileID: 0}
+    - target: {fileID: 4467135361893618014, guid: bad15bf9648b35346a364933a7c3600b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8290,6 +8579,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -8364,6 +8657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FloorCircle
       objectReference: {fileID: 0}
+    - target: {fileID: 192172, guid: 7ab747b445b2b99408bf13ab408ad521, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 404234, guid: 7ab747b445b2b99408bf13ab408ad521, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.285966
@@ -8432,6 +8729,10 @@ PrefabInstance:
     - target: {fileID: 151998, guid: 42ac531c95545204fbbd1fb4fd09e86b, type: 3}
       propertyPath: m_Name
       value: Floor28
+      objectReference: {fileID: 0}
+    - target: {fileID: 151998, guid: 42ac531c95545204fbbd1fb4fd09e86b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 492326, guid: 42ac531c95545204fbbd1fb4fd09e86b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8552,6 +8853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -8624,6 +8929,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -8710,6 +9019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor24
       objectReference: {fileID: 0}
+    - target: {fileID: 171584, guid: e9aae90a9a5a2c84e9cba89f3c0760e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 447082, guid: e9aae90a9a5a2c84e9cba89f3c0760e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.452897
@@ -8791,6 +9104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -8864,6 +9181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.050158
@@ -8926,6 +9247,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -9101,6 +9426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CryptRootf2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 477468, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -9185,6 +9514,10 @@ PrefabInstance:
     - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_Name
       value: CryptRootf2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108448, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 477468, guid: 22307e0381275ee49bffe05209f7eb78, type: 3}
       propertyPath: m_LocalScale.x
@@ -9351,6 +9684,10 @@ PrefabInstance:
     - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence3
+      objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9668,6 +10005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 172532, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458368, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.45064068
@@ -9724,6 +10065,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -9963,6 +10308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -10043,6 +10392,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -10257,6 +10610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.218367
@@ -10316,7 +10673,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1308125371
 Transform:
@@ -10377,6 +10734,10 @@ PrefabInstance:
     - target: {fileID: 177790, guid: db7113d61d140d24c8357490b1229e2a, type: 3}
       propertyPath: m_Name
       value: Floor19
+      objectReference: {fileID: 0}
+    - target: {fileID: 177790, guid: db7113d61d140d24c8357490b1229e2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 439896, guid: db7113d61d140d24c8357490b1229e2a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10446,6 +10807,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -10532,6 +10897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Lamp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -10604,6 +10973,10 @@ PrefabInstance:
     - target: {fileID: 144752, guid: c448d6882a8691b4f896fb64dcee9850, type: 3}
       propertyPath: m_Name
       value: CryptMiniCross
+      objectReference: {fileID: 0}
+    - target: {fileID: 144752, guid: c448d6882a8691b4f896fb64dcee9850, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 405294, guid: c448d6882a8691b4f896fb64dcee9850, type: 3}
       propertyPath: m_LocalScale.x
@@ -10678,6 +11051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence2
       objectReference: {fileID: 0}
+    - target: {fileID: 103032, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 484070, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.314579
@@ -10735,6 +11112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572962493446403098, guid: eafefd083173b65479b88f34a8130b5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9057468220984716960, guid: eafefd083173b65479b88f34a8130b5a,
         type: 3}
@@ -10818,6 +11200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -10890,6 +11276,10 @@ PrefabInstance:
     - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_Name
       value: MetObj_Lamp
+      objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
@@ -10964,6 +11354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor14
       objectReference: {fileID: 0}
+    - target: {fileID: 108598, guid: 2847ab2d8af88f4408a25240d09e8943, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 441562, guid: 2847ab2d8af88f4408a25240d09e8943, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1046515
@@ -11021,6 +11415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor18
       objectReference: {fileID: 0}
+    - target: {fileID: 151740, guid: 748307aa766c9864abe97fb921bedd73, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 493680, guid: 748307aa766c9864abe97fb921bedd73, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3455758
@@ -11077,6 +11475,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -11157,6 +11559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -11229,6 +11635,10 @@ PrefabInstance:
     - target: {fileID: 147500, guid: 86e2edb6d14388a4ab2992acb3369819, type: 3}
       propertyPath: m_Name
       value: Floor4
+      objectReference: {fileID: 0}
+    - target: {fileID: 147500, guid: 86e2edb6d14388a4ab2992acb3369819, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433500, guid: 86e2edb6d14388a4ab2992acb3369819, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11439,6 +11849,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Head_Candle_B
       objectReference: {fileID: 0}
+    - target: {fileID: 7644766710738608322, guid: 3d076538d6e3aa24b9f7dba50f6dd5c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11565,6 +11980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones.002
       objectReference: {fileID: 0}
+    - target: {fileID: 189820, guid: 22179bcc88e2bae4d8c5801999ddb5df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 491138, guid: 22179bcc88e2bae4d8c5801999ddb5df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.361084
@@ -11621,6 +12040,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -11695,6 +12118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -11768,6 +12195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -11840,6 +12271,10 @@ PrefabInstance:
     - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_Name
       value: MetObj_Lamp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
@@ -11919,6 +12354,10 @@ PrefabInstance:
     - target: {fileID: 170734, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
       propertyPath: m_Name
       value: Floor11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 170734, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 429932, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12165,6 +12604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -12333,6 +12776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombstonesCoffinWood.002
       objectReference: {fileID: 0}
+    - target: {fileID: 165532, guid: 4ba0806079d0f7344b9c802d02dde0ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 494882, guid: 4ba0806079d0f7344b9c802d02dde0ff, type: 3}
       propertyPath: m_LocalScale.y
       value: 3.330323
@@ -12397,6 +12844,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -12563,6 +13014,10 @@ PrefabInstance:
     - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_Name
       value: Candle3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151036, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 401254, guid: 6e54d9d2b64fb03498a18c717c82ed44, type: 3}
       propertyPath: m_LocalScale.x
@@ -13505,6 +13960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -13578,6 +14037,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129618346194545963, guid: 2efd17ea6e088e4439727b6932594ef7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7618593790986090385, guid: 2efd17ea6e088e4439727b6932594ef7,
         type: 3}
@@ -13661,6 +14125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones.001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 149362, guid: 72acfbeb17f3f3b4a8308cec03df077a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443238, guid: 72acfbeb17f3f3b4a8308cec03df077a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.087451
@@ -13723,6 +14191,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -13797,6 +14269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -13869,6 +14345,10 @@ PrefabInstance:
     - target: {fileID: 170734, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
       propertyPath: m_Name
       value: Floor11
+      objectReference: {fileID: 0}
+    - target: {fileID: 170734, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 429932, guid: 8578f58d2c6eff84eac4b105a1a1fd33, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13993,6 +14473,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street lamp_D
       objectReference: {fileID: 0}
+    - target: {fileID: 9088814489144356382, guid: e96731e32cc26384da33046d73f7faa7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14009,6 +14494,10 @@ PrefabInstance:
     - target: {fileID: 143094, guid: f2a647f04c90eb94b8e4f5e56736f4e2, type: 3}
       propertyPath: m_Name
       value: Floor1
+      objectReference: {fileID: 0}
+    - target: {fileID: 143094, guid: f2a647f04c90eb94b8e4f5e56736f4e2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 463376, guid: f2a647f04c90eb94b8e4f5e56736f4e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14066,6 +14555,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -14140,6 +14633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -14213,6 +14710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor23
       objectReference: {fileID: 0}
+    - target: {fileID: 119962, guid: 4ac506bc59d05e1469c91149d6213209, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466624, guid: 4ac506bc59d05e1469c91149d6213209, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.203212
@@ -14275,6 +14776,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -14354,6 +14859,10 @@ PrefabInstance:
     - target: {fileID: 119962, guid: 4ac506bc59d05e1469c91149d6213209, type: 3}
       propertyPath: m_Name
       value: Floor23 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 119962, guid: 4ac506bc59d05e1469c91149d6213209, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466624, guid: 4ac506bc59d05e1469c91149d6213209, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14505,6 +15014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.050158
@@ -14561,6 +15074,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -14634,6 +15151,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -14759,6 +15280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_D
       objectReference: {fileID: 0}
+    - target: {fileID: 2014395303379476763, guid: 74132bcdca7f7d245a825825c3fc7909,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14775,6 +15301,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -14849,6 +15379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.050158
@@ -14920,7 +15454,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1762194256
 Transform:
@@ -15075,6 +15609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -15154,6 +15692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones.005
       objectReference: {fileID: 0}
+    - target: {fileID: 176852, guid: 5a780b07c3c81f34794e073c069820a2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 491272, guid: 5a780b07c3c81f34794e073c069820a2, type: 3}
       propertyPath: m_LocalScale.x
       value: 35
@@ -15223,6 +15765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_GatesArch
       objectReference: {fileID: 0}
+    - target: {fileID: 152460, guid: 8f8787e47e9365c45b1e4ea8bc9a582c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 451848, guid: 8f8787e47e9365c45b1e4ea8bc9a582c, type: 3}
       propertyPath: m_LocalScale.x
       value: 30
@@ -15291,6 +15837,10 @@ PrefabInstance:
     - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
@@ -15364,6 +15914,10 @@ PrefabInstance:
     - target: {fileID: 165532, guid: 4ba0806079d0f7344b9c802d02dde0ff, type: 3}
       propertyPath: m_Name
       value: TombstonesCoffinWood.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 165532, guid: 4ba0806079d0f7344b9c802d02dde0ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494882, guid: 4ba0806079d0f7344b9c802d02dde0ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -15444,6 +15998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572962493446403098, guid: eafefd083173b65479b88f34a8130b5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9057468220984716960, guid: eafefd083173b65479b88f34a8130b5a,
         type: 3}
@@ -15759,6 +16318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstones.001
       objectReference: {fileID: 0}
+    - target: {fileID: 149362, guid: 72acfbeb17f3f3b4a8308cec03df077a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443238, guid: 72acfbeb17f3f3b4a8308cec03df077a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.148513
@@ -15822,6 +16385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor17 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 125970, guid: d0ad3c3d6d2d20b45b15f81ab27aa2f5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 443688, guid: d0ad3c3d6d2d20b45b15f81ab27aa2f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1048136
@@ -15878,6 +16445,10 @@ PrefabInstance:
     - target: {fileID: 180646, guid: 9ebe757102ee26842a530e99abeb76e8, type: 3}
       propertyPath: m_Name
       value: TombstonesCoffinWood.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 180646, guid: 9ebe757102ee26842a530e99abeb76e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 468786, guid: 9ebe757102ee26842a530e99abeb76e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15954,6 +16525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 103032, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 484070, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.314579
@@ -16010,6 +16585,10 @@ PrefabInstance:
     - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101878, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 494214, guid: c2d37f0b68e0ddd45aa1303143496927, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16228,6 +16807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_A
       objectReference: {fileID: 0}
+    - target: {fileID: 2119252929475379375, guid: 478d38c3698cbe24cbf7dbfad105d10c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16244,6 +16828,10 @@ PrefabInstance:
     - target: {fileID: 171488, guid: fecf9a559bf14a44394e5a36e740e98f, type: 3}
       propertyPath: m_Name
       value: Floor10
+      objectReference: {fileID: 0}
+    - target: {fileID: 171488, guid: fecf9a559bf14a44394e5a36e740e98f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 479732, guid: fecf9a559bf14a44394e5a36e740e98f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16302,6 +16890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TombstonesCoffinWood.006
       objectReference: {fileID: 0}
+    - target: {fileID: 118648, guid: ed60f1fa38762dd4b9ec123642540bcd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 405062, guid: ed60f1fa38762dd4b9ec123642540bcd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.109919
@@ -16358,6 +16950,10 @@ PrefabInstance:
     - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_Name
       value: MetObj_Lamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
@@ -16432,6 +17028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Fence1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 137812, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 421282, guid: 5ed047d4cc35d174eaccd9a2e59f860f, type: 3}
       propertyPath: m_LocalScale.x
       value: 40
@@ -16505,6 +17105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.218367
@@ -16561,6 +17165,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16619,6 +17227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 172532, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458368, guid: 25eb3db97ed7d094aa532f2ff697de15, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.34500408
@@ -16675,6 +17287,10 @@ PrefabInstance:
     - target: {fileID: 103032, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
       propertyPath: m_Name
       value: MetObj_Fence2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 103032, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 484070, guid: 9cd69f976eeeb8849975bba487d6d4fc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16947,6 +17563,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
@@ -17307,6 +17927,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spooky_Mushroom_B
       objectReference: {fileID: 0}
+    - target: {fileID: 3703581492467372302, guid: 46787c0ca02578e40ab1a18b749a4ff1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4048194083847064500, guid: 46787c0ca02578e40ab1a18b749a4ff1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17392,6 +18017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MetObj_Lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 148040, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 458574, guid: 616c8e393f945dd4398d283a74e72159, type: 3}
       propertyPath: m_LocalScale.x
       value: 25
@@ -17464,6 +18093,10 @@ PrefabInstance:
     - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_Name
       value: ColumnGateColumn (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17805,6 +18438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColumnGateColumn (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 104448, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 466758, guid: 7617cf3261020e143b25e48ecb8c5ac6, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -17878,6 +18515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pumpkin_E
+      objectReference: {fileID: 0}
+    - target: {fileID: 251666197779250496, guid: 539b32ce3edabfa4a83beed7678cc3c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 591600745194366970, guid: 539b32ce3edabfa4a83beed7678cc3c6,
         type: 3}
